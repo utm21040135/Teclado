@@ -1,0 +1,134 @@
+body * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.keyboard-base {
+    max-width: 1085px;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(https://thumbs.dreamstime.com/b/bonita-formaci%C3%B3n-de-nubes-en-colores-pastel-claros-hermosa-blandas-sobre-el-cielo-vv-173584364.jpg);
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(30, 30px);
+    grid-template-rows: repeat(5, 60px);
+    grid-gap: 5px;
+}
+.key {
+
+    background-color:lightpink;
+
+    border: 2px solid black;
+
+    border-radius: 5px;
+
+    grid-column: span 2;
+
+    font-size: 20px;
+
+    text-align: center;
+
+    padding-top: 17px;
+
+}
+
+
+.key:hover {
+
+  border: 3px solid #FB878B ;
+
+  
+
+}
+
+
+.delete {
+
+    grid-column: span 4;
+    background-color:pink;
+
+}
+
+
+.tab {
+    grid-column: span 3;
+    background-color: violet;
+}
+
+
+.backslash {
+    grid-column: span 3;
+    background-color: paleturquoise;
+
+}
+
+
+.capslock {
+
+    grid-column: span 4;
+    background-color:mediumpurple
+
+}
+
+
+.return {
+
+    grid-column: span 4;
+    background-color:turquoise;
+
+}
+
+
+.leftshift {
+
+    grid-column: span 5;
+    background-color: magenta;
+
+}
+
+
+.rightshift {
+
+    grid-column: span 5;
+    background-color: lightcoral;
+
+}
+
+
+.leftctrl {
+
+    grid-column: span 3;
+    background-color: rosybrown;
+
+}
+
+
+.command {
+
+    grid-column: span 3;
+    background-color: rgb(247, 73, 73);
+    font-size: 20px;
+
+}
+
+
+.imgprint{
+
+    grid-column: span 3;
+    background-color: plum;
+    font-size: 20px;
+
+}
+
+
+.space {
+
+    grid-column: span 13;
+    background-color: mediumspringgreen;
+
+}
